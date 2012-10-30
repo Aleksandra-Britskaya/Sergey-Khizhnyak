@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta charset="utf-8">
+<head>
+<title>Задание по уроку №3</title>
+<body>
+<h1>Задание к уроку "Форма": теги и их атрибуты</h1>
+<h2>Форма регистрации</h2>
+<form action="mailto:rdn.brothers@gmail.com">
+<fieldset><legend><h4>Коротко о себе</h4></legend>
+<label for="name1">Имя:</label><input type="text" size="40" id="name1" name="name1">
+<p><label>Фамилия:<input type="text" size="34"></label></p>
+Пол: <input type="radio" name="gender" value="Male">Мужской<input type="radio" name="gender" value="Female"> Женский
+<p>
+<label>Возраст:<input type="text" size="5"></label>лет
+</p>
+</fieldset>
+<p>
+<fieldset><legend><h4>Подробнее о себе</h4></legend>
+<input type="radio" name="gender2" value="Male2">Молодой человек <br/>
+<input type="radio" name="gender2" value="Female2">Девушка <br/>
+
+<input type="text">Дата рождения <br/>
+<input type="text">Семейное положение <br/>
+<input type="text">Социальный статус <br/>
+<input type="text">Местожительство<br/>
+<p>
+<strong>Что вы обычно делаете на выходных:</strong>
+</p>
+<input type="checkbox" value="About">Сплю <br/>
+<input type="checkbox" value="About">Гуляю с друзьями <br/>
+<input type="checkbox" value="About">Хожу на рыбалку <br/>
+<input type="checkbox" value="About">Играю в игры <br/>
+<p>
+<strong>Рассказать о формах в книге, посвященной HTML:</strong>
+</p>
+
+<select size="1">
+<option name="Opt1" selected="selected">Site frequency</option>
+<option name="Opt2">Tags</option>
+<option name="Opt3">Atributes</option>
+</select>
+
+<p><strong>Сколько книг вы прочитали за свою жизнь:</strong></p>
+
+<input type="radio" name="books" value="0-10">0-10<br/>
+<input type="radio" name="books" value="11-20">11-20<br/>
+<input type="radio" name="books" value="21-50">21-50<br/>
+<input type="radio" name="books" value="50+">50+
+<p>
+<strong>Ваши компентарии:</strong>
+<textarea name="comment" cols="60" rows="12"></textarea>
+</p>
+<p>
+<select size="3">
+	<option name="opt4"> Первая позиция
+    <option name="opt5" selected="selected"> Вторая позиция
+    <option name="opt6"> Третья позиция
+    <option name="opt7"> Четвёртая позиция
+    <option name="opt8"> Пятая позиция
+</select>
+</p>
+</fieldset>
+</p>
+<p>
+<fieldset><legend><h4>И в заключении</h4></legend>
+<input type="text" disabled="disabled" value="Это поле было введено до вас" size="35">
+
+
+<p><label for="Email"><strong>Email:</strong><br/></label><input type="text" size="35" id="Email" Email="Email1"></p>
+
+
+
+
+
+<p><strong>Хотите подписатся на самую модную рассылку спама?</strong><br/><em>Выберите категории</em></p>
+<input type="checkbox" value="Spam">Обрудование <br/>
+<input type="checkbox" value="Spam">Как приготить обеды <br/>
+<input type="checkbox" value="Spam">Заработай миллион за два дня
+<p><strong>На сколько сложная задача:</strong></p>
+<input type="radio" name="Task1">Совсем нет<br/>
+<input type="radio" name="Task2">Так себе<br/>
+<input type="radio" name="Task3">Еле справились
+</fieldset>
+</p>
+<input type="submit" value="Отправить"> <input type="reset" value="Сбросить">
+</form>
+
+</body>

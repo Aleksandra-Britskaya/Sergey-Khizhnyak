@@ -4,11 +4,14 @@
 	color:#FFF;
 }
 
+.header-list
+{
+	list-style:square;
+}
 span
 {
 	text-decoration:underline;
 	color:#F00;
-	list-style:square;
 }
 
 .footer-txt

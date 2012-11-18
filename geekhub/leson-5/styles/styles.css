@@ -1,0 +1,43 @@
+.title
+{
+	background-color:#000;
+	color:#FFF;
+}
+
+span
+{
+	text-decoration:underline;
+	color:#F00;
+	list-style:square;
+}
+
+.footer-txt
+{
+	background-color:#000;
+	color:#FF0;
+}
+
+h4
+{
+	color:#00C;
+}
+
+.content
+{
+	background-color: #060;
+	margin-left:25%;
+	margin-right:25%;
+	padding:2%;
+	text-align: center;
+	border-bottom:dashed #FFFF00;
+	border-top:dashed #FFFF00;
+	color:#FF0;
+}
+
+.content-first
+{
+	background:#666;
+	border:solid #060;
+	padding:12px;
+	text-align:right;
+}

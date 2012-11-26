@@ -89,6 +89,8 @@ h1{
 	font-family:Arial;
 	text-decoration:none;
 	font-weight:regular;
+	padding:3px;
+	border-bottom:solid 1px #03A7FD;
 }
 
 h2{color:#03A7FE;}

@@ -1,0 +1,171 @@
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:12px Tahoma, sans-serif; background:#fff; color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+    padding:0;
+    margin:0;
+    outline:none;
+    list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Tahoma, sans-serif; color:#000; text-decoration:underline; }
+a:hover                        { text-decoration:none; }
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+
+body 
+{
+	background:url(../images/background2.png)  repeat-x fixed;
+}
+
+#wrapper 
+{
+    width: 776px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#header 
+{
+    overflow: hidden;
+    height: 163px;
+    margin: 0 0 25px;
+    border-bottom: 1px solid #939598;
+}
+
+#header img 
+{
+    width: 285px;
+    height: 83px;
+    margin: 40px 0 0;
+}
+
+#header .nav 
+{
+    margin: 77px 0 0;
+    float:right;
+}
+
+#header .nav li 
+{
+    float: left;
+    margin: 0 24px;
+}
+
+#header .nav li a 
+{
+    font-family: "Arial";
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #939597;
+}
+
+#content 
+{
+    overflow: hidden;
+    padding: 0 0 75px 0;
+}
+
+#content p 
+{
+    font-size: 14px;
+	padding: 15px 0;
+}
+
+#content img 
+{
+    padding: 29px 0;
+}
+
+#content h1 
+{
+    padding: 34px 0 17px 0;
+    border-bottom: 1px solid #00A7FB;
+}
+
+#content h2 
+{
+    color: #03A7FE;
+}
+
+#sidebar 
+{
+    width: 230px;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+#sidebar h3 
+{
+    font-family: "Arial";
+    margin: 0 0 26px;
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 20px;
+    color: #1e90ff;
+}
+
+#sidebar h3 span 
+{
+    display: block;
+    float: right;
+    width: 12px;
+    height: 10px;
+    margin: 5px 0 0 9px;
+    background: url(../images/arrow1.png) no-repeat;
+}
+
+#sidebar ul 
+{
+    clear: both;
+}
+
+#sidebar ul li 
+{
+    border-bottom: 1px solid #d3d3d3;
+}
+
+#sidebar ul li a 
+{
+    display: block;
+    padding: 9px 0 9px 21px;
+    background: url(../images/arrow2.png) 0 center no-repeat;
+    font-family: "Arial";
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#footer {
+    clear: both;
+    border-top: 1px solid #d3d3d3;
+    padding: 11px 0;
+}
+
+#footer a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1e90ff !important;
+}

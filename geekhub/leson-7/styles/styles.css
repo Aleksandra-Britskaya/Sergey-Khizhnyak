@@ -78,10 +78,13 @@ body
     color: #939597;
 }
 
+#container{overflow:hidden;}
+
 #content 
 {
-    overflow: hidden;
+	float:right;
     padding: 0 0 75px 0;
+	width:525px;
 }
 
 #content p 

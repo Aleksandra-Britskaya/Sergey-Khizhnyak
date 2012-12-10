@@ -82,6 +82,8 @@ a:hover                        { text-decoration:none; }
 
 #content .left h3 { float:right; text-align:left; margin: 43px 60px 0 0;}
 
+#content .left h3 span { float:left;}
+
 #footer {border-top: 1px solid #A7C3CF; padding-top:19px;}
 
 #footer li { padding:0 0 0 21px; float:left;}

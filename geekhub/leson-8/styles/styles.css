@@ -50,9 +50,9 @@ a:hover                        { text-decoration:none; }
 
 }
 
-#header .social .fb a { background:url(../images/facebook.png) no-repeat; height:23px; width:23px; text-indent:-400px;}
+#header .social .fb a { background:url(../images/facebook.png) no-repeat; height:23px; width:23px;}
 
-#header .social li a:hover {}
+#header .social .fb a:hover { background:url(../images/facebook_hover.png) no-repeat; height:23px; width:23px;}
 
 #header .navigation { padding-top:46px;}
 
@@ -85,6 +85,8 @@ a:hover                        { text-decoration:none; }
 #footer {border-top: 1px solid #A7C3CF; padding-top:19px;}
 
 #footer li { padding:0 0 0 21px; float:left;}
+
+#footer a:hover { color:#E11D5C;}
 
 #footer .active a { color:#E11D5C;}
 

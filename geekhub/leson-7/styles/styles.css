@@ -143,9 +143,9 @@ body
     clear: both;
 }
 
-#sidebar ul li 
+#sidebar ul li+li
 {
-    border-bottom: 1px solid #d3d3d3;
+    border-top: 1px solid #d3d3d3;
 }
 
 #sidebar ul li a 
